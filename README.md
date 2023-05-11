@@ -1,4 +1,5 @@
-#INSTRUCTIONS GIVEN FOR THIS ASSIGNMENT
+INSTRUCTIONS GIVEN FOR THIS ASSIGNMENT
+=====================================================================
 
 You are going to create a terminal-based calculator program using Node.
 
