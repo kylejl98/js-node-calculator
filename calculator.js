@@ -2,27 +2,22 @@ const rs = require('readline-sync');
 
 const addition = (numbers) => {
   console.log(`\n`)
-  console.log(`${numbers[0]} + ${numbers[1]} = ${numbers[0] + numbers[1]}`)
+  console.log(`The result is: ${numbers[0] + numbers[1]}`)
 }
 
 const subtraction = (numbers) => {
   console.log(`\n`)
-  console.log(`${numbers[0]} - ${numbers[1]} = ${numbers[0] - numbers[1]}`)
+  console.log(`The result is: ${numbers[0] - numbers[1]}`)
 }
 
 const multiplication = (numbers) => {
   console.log(`\n`)
-  console.log(`${numbers[0]} * ${numbers[1]} = ${numbers[0] * numbers[1]}`)
+  console.log(`The result is: ${numbers[0] * numbers[1]}`)
 }
 
 const division = (numbers) => {
   console.log(`\n`)
-  if (numbers[0] % numbers[1] == 0) {
-    console.log(`${numbers[0]} / ${numbers[1]} = ${numbers[0] / numbers[1]}`)
-  } else {
-    console.log(`${numbers[0]} / ${numbers[1]} = ${Math.floor(numbers[0] / numbers[1])} r.${numbers[0] % numbers[1]}`)
-  }
-  
+  console.log(`The result is: ${numbers[0] / numbers[1]}`)
 }
 
 const operations = [
