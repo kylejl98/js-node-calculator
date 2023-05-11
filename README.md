@@ -1,4 +1,4 @@
-INSTRUCTIONS GIVEN FOR THIS ASSIGNMENT
+REQUIREMENTS FOR THIS ASSIGNMENT
 ===
 
 You are going to create a terminal-based calculator program using Node.
